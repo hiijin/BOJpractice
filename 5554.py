@@ -10,3 +10,4 @@ result_sec = total_sec - (result_min * 60)
 
 print(result_min)
 print(result_sec)
+

@@ -7,3 +7,4 @@ while True:
         print("Yes")
     else:
         print("No")
+

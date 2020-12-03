@@ -6,3 +6,4 @@ for i in range(n):
     sum += int(num[i])
 
 print(sum)
+
