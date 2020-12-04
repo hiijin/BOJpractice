@@ -15,6 +15,7 @@ for i in range(n):
 #             if c[j][1] > c[j+1][1]:
 #                 c[j], c[j+1] = c[j+1], c[j]
 
+c = sorted(c, key=lambda x: (x[0], x[1]))
 
 for i in range(0, n):
     print(c[i][0], c[i][1])
